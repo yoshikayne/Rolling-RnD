@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">LOGIN FORM</h1>
+        <input placeholder="Email">
+        <br><br>
+        <input placeholder="Password">
+        <br><br>
+        <button id="submit">LOGIN</button>
+    </div>
+
+    <script type="text/javascript">
+        const tombol = document.querySelector('#submit');
+
+        tombol.addEventListener('click', function() {
+            alert('Anda berhasil login.')
+            window.location.href = "home.html";
+        })
+    </script>
+</body>
+</html>
